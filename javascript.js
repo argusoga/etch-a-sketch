@@ -32,11 +32,11 @@ $("#new").click(function(e){
     padding = (500%xy)/2;
     padding = parseInt(padding, 10);
     var width = 500-padding*2;
-$('#middle').animate({left: '49%'},100);
-$('#middle').animate({left: '51%'},100);
-$('#middle').animate({left: '49%'},100);
-$('#middle').animate({left: '51%'},100);
-$('#middle').animate({left: '50%'},100);
+$('#middle').animate({left: '49%'},50);
+$('#middle').animate({left: '51%'},50);
+$('#middle').animate({left: '49%'},50);
+$('#middle').animate({left: '51%'},50);
+$('#middle').animate({left: '50%'},50);
 $('#container').empty();
 	for(var a=1;a<xy+1;a++){
 	   for(var i=1;i<xy+1;i++){
