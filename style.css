@@ -18,8 +18,18 @@ h1 {position: absolute;
 	border-radius: 5px;
 	padding: 0 3px;
 	color: white;
-z-index: 1;
+	z-index: 1;
 	}
+h1:hover {top: -10px;}
+
+#new:hover{border: 1px solid gray; 
+		width: 82px;
+		height:82px;
+		left:9px;}
+#Fade:hover	{border: 1px solid gray; 
+		width: 82px;
+		height:82px;
+		right:9px;}
 
 #new{	position: absolute;
 	border-radius: 100%;
