@@ -20,7 +20,6 @@ h1 {position: absolute;
 	color: white;
 	z-index: 1;
 	}
-h1:hover {top: -10px;}
 
 #new:hover{border: 1px solid gray; 
 		width: 82px;
